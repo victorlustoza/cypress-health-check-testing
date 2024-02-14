@@ -10,7 +10,6 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "cypress": "^13.6.4",
-    "npm": "^10.4.0"
+    "cypress": "^13.6.4"
   }
 }
