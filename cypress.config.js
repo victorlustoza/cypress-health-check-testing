@@ -4,5 +4,6 @@ module.exports = defineConfig({
   e2e: {
     supportFile: false
   },
-  fixturesFolder: false
+  fixturesFolder: false,
+  projectId: "6bouzc"
 });
