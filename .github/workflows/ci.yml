@@ -11,6 +11,8 @@ jobs:
   cypress-run:
     runs-on: ubuntu-22.04
     steps:
+      - name: Clear npm cache
+        run: npm cache clean --force
       - name: Checkout
         uses: actions/checkout@v4
       - name: Cypress run
