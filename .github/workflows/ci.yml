@@ -8,10 +8,10 @@ on:
     - cron: "0 12,00 * * *"
   workflow_dispatch:
 jobs:
-  tests:
+  cypress-run:
     runs-on: ubuntu-22.04
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: Cypress Tests
+      - name: Cypress run
         uses: cypress-io/github-action@v6
