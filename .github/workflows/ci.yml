@@ -3,9 +3,9 @@ on:
   push:
     branches:
       - main
-  schedule:
-    # runs twice a day (at noon and midnight - UTC)
-    - cron: "0 12,00 * * *"
+  # schedule:
+  # runs twice a day (at noon and midnight - UTC)
+  # - cron: "0 12,00 * * *"
   workflow_dispatch:
 jobs:
   cypress-run:
@@ -15,3 +15,6 @@ jobs:
         uses: actions/checkout@v4
       - name: Cypress run
         uses: cypress-io/github-action@v6
+        with:
+          build: npm run build
+          start: npm start
