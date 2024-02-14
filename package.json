@@ -1,7 +1,7 @@
 {
   "name": "cypress-health-check-testing",
   "version": "1.0.0",
-  "description": "TBD",
+  "description": "Cypress Health Check Testing",
   "main": "cypress.config.js",
   "scripts": {
     "cy:open": "cypress open",
