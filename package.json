@@ -8,5 +8,9 @@
     "test": "cypress run"
   },
   "author": "",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "cypress": "^13.6.4",
+    "npm": "^10.4.0"
+  }
 }
