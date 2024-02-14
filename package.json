@@ -1,0 +1,12 @@
+{
+  "name": "cypress-health-check-testing",
+  "version": "1.0.0",
+  "description": "TBD",
+  "main": "cypress.config.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "test": "cypress run"
+  },
+  "author": "",
+  "license": "MIT"
+}
